@@ -13,16 +13,20 @@
 	</section>
    </header>
    
+  
    <!--FORMULÁRIO-->
-   <form action="Perfil.html">
-	E-mail: 
-	<input type="text" name="usuario">
-	<br>
-	Senha: 
-	<input type="text" name="usuario">
-	<br><br>
-	<input type="submit" value="Entrar"">
-	<br><br><br><br><br><br><br><br>
+   <form method="post" action="php/validaLogin.php" id="login" name="login">
+   		<fieldset id="fie">
+			<label>E-mail:</label> 
+			<input type="text" name="usuario" id="usuario" placeholder="E-mail de cadastro">
+			<br>
+			<label>Senha:</label> 
+			<input type="password" name="senha" id="senha" placeholder="Senha">
+			<br><br>
+			<input type="submit" value="Entrar">
+			<input type="submit" value="Cadastrar" formaction="Cadastro.html">
+			<br><br><br>
+		</fieldset>
 	</form>
    
    <!--Rodapé-->
