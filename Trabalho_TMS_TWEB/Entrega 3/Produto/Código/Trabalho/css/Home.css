@@ -1,0 +1,35 @@
+body {
+  color: #000000;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+h1{
+  background-image: url(../img/background.jpg);
+  padding: 10px;
+  color: #FFFF00
+}
+
+#imgkilowatt{
+  margin-right: auto;
+  width: 55px;
+}
+
+.Menu{
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 800px;
+  font-family: Impact, fantasy;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.rodape{
+position: absolute;
+right: 0;
+width: 700px;
+color: #FFFFFF;
+}

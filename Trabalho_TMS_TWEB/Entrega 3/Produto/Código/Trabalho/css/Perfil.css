@@ -1,0 +1,82 @@
+body {
+  color: #000000;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+h1{
+  background-image: url(../img/background.jpg);
+  padding: 10px;
+  color: #FFFF00
+}
+
+h2{
+  background-image: url(../img/background.jpg);
+  padding: 5px;
+  color: #FFFF00
+}
+
+h3{
+  background-image: url(../img/background.jpg);
+  padding: 5px;
+  color: #FFFF00
+}
+
+#imgkilowatt{
+  margin-right: auto;
+  width: 55px;
+}
+
+.busca{
+  margin: 0 auto;
+  width: 940px;
+  font-family: "Calibri", "Lucida Grande", sans-serif;
+}
+
+.perfil-consumo{
+  margin: 0 auto;
+  width: 940px;
+  font-family: "Calibri", "Lucida Grande", sans-serif;
+}
+
+.principais-produtos{
+  width: 1000px;
+  font-family: Arial, fantasy;
+  font-size: 15px;
+}
+
+.conta{
+  margin: 0 auto;
+  width: 940px;
+  font-family: "Calibri", "Lucida Grande", sans-serif;
+}
+
+.rodape{
+position: absolute;
+right: 0;
+width: 700px;
+color: #FFFFFF;
+}
+
+figcaption {
+	font-style: italic;
+	margin-top: 2px;
+	font-size: 4px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th {
+    background: #FF0000;
+    color: yellow;
+    text-align: center;
+}
+
+table tr{
+    text-align: center;
+}
