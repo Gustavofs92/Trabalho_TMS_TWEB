@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> <!--Formatação-->
+	<title>Kilowatt Hora</title> <!--Título-->
+	<link rel="stylesheet" href="css/Cadastro.css"> <!--Referencia arquivo CSS-->
+</head>
+<body>
+	<!--CABEÇALHO-->
+	<header>
+	<section>
+	<h1>CADASTRO</h1>
+	</section>
+   </header>
+   
+   <!--FORMULÁRIO-->
+   <form name="input" action="php/cadastrarUsuario.php" method="post">
+			<label>Nome:</label> 
+				<input type="text" name="nome">
+			<label>Sobrenome:</label>
+				<input type="text" name="sobrenome">
+			<br>
+			<label>CPF:</label>
+				<input type="text" name="cpf" maxlength="11">
+			<br>
+			<label>E-mail:</label> 
+				<input type="text" name="usuario">
+			<br>
+			<label>Senha:</label>
+				<input type="password" name="senha">
+			<br>
+			<label>Logradouro:</label> 
+				<input type="text" name="rua">
+			<label>Número:</label>
+				<input type="text" name="numero" size="1">
+			<label>Bairro:</label> 
+				<input type="text" name="bairro">
+			<label>Cidade:</label> 
+				<input type="text" name="cidade">
+			<br>
+			<label>Data de Nascimento:</label> 
+				<input type="text" name="dia" size="1" maxlength="2" placeholder="Dia">
+				<input type="text" name="mes" size="1" maxlength="2" placeholder="Mês">
+				<input type="text" name="ano" size="2" maxlength="4" placeholder="Ano">	
+				<br>
+			<label>Sexo:</label>
+				<select name="sexo">
+				<option value="M">Masculino
+				<option value="F">Feminino
+			</select>
+			<br><br><br>
+				<input type="submit" value="Cadastrar">
+			<br><br><br><br>
+	</form>
+   
+   <!--Rodapé-->
+   <footer>
+   <img src="img/rodape.jpg">&copy; Copyright Kilowatt Hora
+   <div class="rodape">
+   <ul>
+      <li>
+	  <a href=="http://facebook.com/kilowatthora"><img src="img/facebook.png"></a>
+	  <a href=="http://twitter.com/kilowatthora"><img src="img/twitter.png"></a>
+	  <a href=="https://instagram.com/kilowatthora"><img src="img/instagram.png"></a>
+	  </li>
+    </ul>
+	</div>
+   </footer>
+</body>
+
+</html>
